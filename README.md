@@ -3,11 +3,11 @@ Python AIS frame generator plugin for GNU Radio. Offers single source block whic
 
 Installing the plugin:
 ```
-  git clone https://github.com/simoneacker/gr-AIS_TX_Python.git
-  cd gr-AIS_TX_Python
-  mkdir build
-  cd build
-  cmake ..
-  make
-  sudo make install
+git clone https://github.com/simoneacker/gr-AIS_TX_Python.git
+cd gr-AIS_TX_Python
+mkdir build
+cd build
+cmake ..
+make
+sudo make install
 ```
