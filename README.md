@@ -18,6 +18,7 @@ sudo make install
 ## Notes:
 - Project structure is defined by gr_modtool (installed with GNU Radio)
 - Important files are AIS_Frame_Generator.py (in python/AIS_TX_Python/) and AIS_TX_Python_AIS_Frame_Generator.block.yml (in grc/). The python file contains the plugin code and the yml file defines the GUI block for gnuradio-companion.
+- payloadgen.py file in root directory be used to generate 168-bit binary payload strings. By default, it generates 10 payloads, with varying MMSI and coordinates. These strings can be copied directly into the binary payload field of the AIS_Frame_Generator block in GNU Radio.
 
 # Credit
 I referenced [Trend Micro C++ AIS Plugin](https://github.com/trendmicro/ais) while working on this.
